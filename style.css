@@ -1,0 +1,60 @@
+/* #btn {
+    background-color: navy;
+    border: none;
+}
+
+#btn:hover{
+    border: 1px solid whitesmoke;
+    box-shadow: 5px 10px #888888;
+}
+
+#weatherDataInfo .card {
+    background-color: orange;
+    text-align: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    width: 500px;
+} */
+#btn {
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#btn:hover {
+    background-color: dodgerblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#weatherDataInfo .card {
+    background-color: #ffcc66; /* a lighter shade of orange */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
